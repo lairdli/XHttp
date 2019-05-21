@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<url
+    Expires="0"
+    NetType="post"
+    Url="http://asg.ott.henancatv.com:8080/Epg">
+    <Node
+        EntityClass="com.avit.epg.data.bean.getWikiss.GetWikiss"
+        Key="GetWikiInfoByTagOrChildTag" />
+
+    <Node
+        EntityClass="com.avit.epg.data.bean.getprograms.GetPrograms"
+        Key="GetLookBackProgramsByWikiIdAndChannelCode" />
+
+    <Node
+        EntityClass="com.avit.epg.data.bean.channels.Channels"
+        Key="GetChannelsByRecommend" />
+
+    <Node
+        EntityClass="com.avit.epg.data.bean.getWikiss.GetWikiss"
+        Key="GetRecommendWikiList" />
+</url>
+

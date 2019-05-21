@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<url
+    Expires="0"
+    NetType="get"
+    Url="http://asg.ott.henancatv.com:8080/asg?attribute=">
+    <!--Url="http://10.5.1.45:9005/asg?attribute=">-->
+    <!--湖南益阳测试IP Url="http://10.5.1.45:9005/asg?attribute="-->
+    <!-- http://192.168.3.187:8085/asg?attribute=-->
+
+    <!-- 测试 http://192.168.3.193:9005/asg?attribute=-->
+    <Node
+        EntityClass="com.avit.ott.data.bean.common.DeviceCheck"
+        Key="json_device_check" />
+
+    <Node
+        EntityClass="com.avit.ott.data.bean.common.AsgInfo"
+        Expires="10"
+        Key="json_get_asg_info" />
+
+    <Node
+        EntityClass="com.avit.ott.data.bean.common.DataArea"
+        Key="json_get_tree" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.common.HotPlaysBeans"
+        Key="json_get_content" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.common.HotWordsBeans"
+        Key="json_search_hot_words" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.common.SearchBeans"
+        Key="json_search" />
+
+    <Node
+        EntityClass="com.avit.ott.data.bean.operation.BookMarkBeans"
+        Key="json_mybookmark" />
+    <!--电影详情-->
+    <Node
+        EntityClass="com.avit.ott.data.bean.operation.PlayListBeans"
+        Key="json_myplay" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.MessageCode"
+        Key="json_grade" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.common.DataArea"
+        Key="json_getassociated" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.MessageCode"
+        Key="json_bookmark" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.common.ConditionBeans"
+        Key="json_get_select_conditions" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.operation.FilterBeans"
+        Key="json_get_select_movies" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.MessageCode"
+        Key="json_mygrade" />
+
+    <!--我的消息列表-->
+    <Node
+        EntityClass="com.avit.ott.data.bean.operation.MessageListBean"
+        Key="json_get_system_messages" />
+
+    <!--我的消息详情-->
+    <Node
+        EntityClass="com.avit.ott.data.bean.operation.MessageDetailBean"
+        Key="json_get_system_message_info" />
+
+    <!--上报消息状态  目前只有删除上报-->
+    <Node
+        EntityClass="com.avit.ott.data.bean.MessageCode"
+        Key="report_message_status" />
+
+
+    <!--电影详情-->
+    <!--播放历史-->
+    <Node
+        EntityClass="com.avit.ott.data.bean.common.MovieInfoBean"
+        Key="json_get_movie" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.MessageCode"
+        Key="json_clear_myplay" />
+    <!--播放历史-->
+    <Node
+        EntityClass="com.avit.ott.data.bean.operation.OperationBeans"
+        Key="json_play" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.MessageCode"
+        Key="json_report_resume_point" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.common.ListChannelBeans"
+        Key="json_get_channel" Expires="1800"/>
+    <Node
+        EntityClass="com.avit.ott.data.bean.operation.OperationBeans"
+        Key="json_play_channel" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.operation.OperationBeans"
+        Key="json_play_channel_no_auth" Expires="14400"/>
+    <Node
+        EntityClass="com.avit.ott.data.bean.operation.PayAuthContent"
+        Key="json_auth_content" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.operation.PayProdList"
+        Key="json_get_prodlist_by_ppv" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.operation.PayOrderCode"
+        Key="json_create_ppv_order" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.operation.PayOrderCode"
+        Key="json_create_prod_order" />
+    <Node
+        EntityClass="com.avit.ott.data.bean.operation.PayConfigInfo"
+        Key="json_get_support_config_data" />
+    <!--MockJson = "pay_config_data.json"-->
+    <Node
+        EntityClass="com.avit.ott.data.bean.common.ListOfRankingInfo"
+        Key="json_get_ranking_info" />
+
+    <Node
+        EntityClass="com.avit.epg.data.bean.getWikiss.GetWikiss"
+        Key="GetWikiInfoByTagOrChildTag"
+        NetType="post"
+        Url="http://asg.ott.henancatv.com:8080/Epg" />
+
+    <Node
+        EntityClass="com.avit.epg.data.bean.getprograms.GetPrograms"
+        Key="GetLookBackProgramsByWikiIdAndChannelCode"
+        NetType="post"
+        Url="http://asg.ott.henancatv.com:8080/Epg" />
+
+    <Node
+        EntityClass="com.avit.epg.data.bean.channels.Channels"
+        Key="GetChannelsByRecommend"
+        NetType="post"
+        Url="http://asg.ott.henancatv.com:8080/Epg" />
+
+
+    <Node
+        EntityClass="com.avit.epg.data.bean.getWikiss.GetWikiss"
+        Key="GetRecommendWikiList"
+        NetType="post"
+        Url="http://asg.ott.henancatv.com:8080/Epg" />
+
+    <Node
+        EntityClass="com.avit.ott.data.bean.user.UserBeans"
+        Key="json_user_register" />
+
+    <Node
+        EntityClass="com.avit.ott.data.bean.operation.TimeInfo"
+        Key="json_get_logon_time" />
+
+    <Node
+        EntityClass="com.avit.ott.data.bean.user.UserBeans"
+        Key="json_user_logon" />
+
+</url>
+
